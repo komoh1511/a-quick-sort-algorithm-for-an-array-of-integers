@@ -38,15 +38,15 @@ void printVector(std::vector<int> a) {
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    std::cout << "Введите размер массива: ";
+    std::cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РјР°СЃСЃРёРІР°: ";
     int size;
     std::cin >> size;
 
     std::vector<int> a(size);
 
-    // Ввод данных
+
     for (int i = 0; i < size; i++) {
-        std::cout << "Введите элемент массива: ";
+        std::cout << "Р’РІРµРґРёС‚Рµ СЌР»РµРјРµРЅС‚ РјР°СЃСЃРёРІР°: ";
         std::cin >> a[i];
     }
 
